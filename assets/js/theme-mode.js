@@ -2,7 +2,7 @@
 if (localStorage.theme === 'dark' ) {
     document.documentElement.classList.add('dark')
 } else {
-    document.documentElement.classList.remove('dark');
+    document.documentElement.classList.add('dark');
 }
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
